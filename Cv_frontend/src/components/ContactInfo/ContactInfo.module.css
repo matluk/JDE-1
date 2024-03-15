@@ -1,0 +1,40 @@
+.main-title{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    padding-top: 3rem;
+  }
+  
+  .contact-info ul{
+    padding-top: 2rem;
+  }
+  
+  .contact-info ul li{
+    padding: .4rem 0;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+  .contact-info ul li i{
+    padding-right: 1rem;
+    font-size: 1.2rem;
+  }
+
+  @media screen and (max-width:400px) {
+    .main-title{
+      font-size: 1rem;
+    }
+    .contact-info ul li i{
+      font-size: .9rem ;
+    }
+    .contact-info ul li{
+      font-size: 0.8rem
+    }
+  }
+
+  @media screen and (max-width:300px) {
+    .contact-info ul li{
+      flex-direction: column;
+    }
+  }
